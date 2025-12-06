@@ -1,0 +1,30 @@
+# Core Frameworks (Standard modern versions for Python 3.10)
+torch>=2.1.0
+torchaudio>=2.1.0
+numpy<2.0.0
+scipy
+
+# Coqui TTS (Required for Assignment Part A - Tacotron Baseline)
+# Coqui is the toolbox mentioned for Tacotron access
+TTS>=0.22.0
+
+# Audio Processing & IO (Required for saving .wav files)
+soundfile
+librosa
+pydub
+
+# General Machine Learning Utilities
+tqdm
+matplotlib
+pandas
+
+# Utilities for Interactive Notebooks (Recommended for workshops)
+jupyter
+ipykernel
+ipywidgets
+
+# Potential dependencies for recent Voice Cloning/Transformers (Part B)
+transformers
+accelerate
+datasets
+sentencepiece
