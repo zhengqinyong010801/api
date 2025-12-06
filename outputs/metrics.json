@@ -1,0 +1,54 @@
+{
+  "tacotron": {
+    "clip_id": "tacotron",
+    "model_name": "tts_models/en/ljspeech/tacotron2-DDC",
+    "preset": "Tacotron2-DDC baseline (English)",
+    "char_count": 547,
+    "inference_time_s": 47.04279413900804,
+    "duration_s": 39.0356462585034,
+    "real_time_factor": 1.2051239994204115,
+    "mean_rms": 0.08150949329137802,
+    "spectral_centroid_mean": 2508.0982766122174,
+    "pitch_std": 1113.080322265625,
+    "speaking_rate_chars_per_s": 14.012833203212136
+  },
+  "xtts_v2_natural": {
+    "clip_id": "xtts_v2_natural",
+    "model_name": "tts_models/multilingual/multi-dataset/xtts_v2",
+    "preset": "XTTS v2 default neutral",
+    "char_count": 547,
+    "inference_time_s": 171.9769833770115,
+    "duration_s": 32.62133333333333,
+    "real_time_factor": 5.27191766258312,
+    "mean_rms": 0.13069085776805878,
+    "spectral_centroid_mean": 2204.443948077939,
+    "pitch_std": 1187.3992919921875,
+    "speaking_rate_chars_per_s": 16.76816806997466
+  },
+  "xtts_v2_happy": {
+    "clip_id": "xtts_v2_happy",
+    "model_name": "tts_models/multilingual/multi-dataset/xtts_v2",
+    "preset": "XTTS v2 emotion=Happy",
+    "char_count": 547,
+    "inference_time_s": 165.54936389497016,
+    "duration_s": 32.984,
+    "real_time_factor": 5.019080884518862,
+    "mean_rms": 0.11336828768253326,
+    "spectral_centroid_mean": 2229.8485043952446,
+    "pitch_std": 1182.6588134765625,
+    "speaking_rate_chars_per_s": 16.583798205190394
+  },
+  "xtts_v2_sad": {
+    "clip_id": "xtts_v2_sad",
+    "model_name": "tts_models/multilingual/multi-dataset/xtts_v2",
+    "preset": "XTTS v2 emotion=Sad",
+    "char_count": 547,
+    "inference_time_s": 169.69445135106798,
+    "duration_s": 33.4,
+    "real_time_factor": 5.08067219613976,
+    "mean_rms": 0.1222807988524437,
+    "spectral_centroid_mean": 2264.434593977725,
+    "pitch_std": 1186.17578125,
+    "speaking_rate_chars_per_s": 16.377245508982035
+  }
+}
